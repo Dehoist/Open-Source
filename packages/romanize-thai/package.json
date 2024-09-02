@@ -3,6 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "description": "Romanize Thai",
+  "license": "MPL-2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dehoist/Open-Source.git",
