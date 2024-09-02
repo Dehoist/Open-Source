@@ -2,6 +2,10 @@ export const THAI_REGEX = /[\u0E00-\u0E7F]/
 
 export const successTests = [
   [
+    'สวัสดี',
+    'swasdi',
+  ],
+  [
     'อยากจะเจอเธอทุกวัน',
     'yakchachoethoethukwan',
   ],
