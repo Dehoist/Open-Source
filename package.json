@@ -1,10 +1,10 @@
 {
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.7.1",
+  "packageManager": "pnpm@9.9.0",
   "engines": {
     "node": ">=20",
-    "pnpm": ">=9.7.1"
+    "pnpm": ">=9.9.0"
   },
   "scripts": {
     "lint": "eslint .",
