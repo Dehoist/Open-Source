@@ -22,7 +22,7 @@ importers:
         version: 0.62.3(eslint@9.10.0(jiti@1.21.6))(typescript@5.6.2)
       '@vitest/coverage-v8':
         specifier: ^2.0.5
-        version: 2.1.0(vitest@2.1.0(@types/node@22.5.4)(@vitest/ui@2.1.0))
+        version: 2.1.1(vitest@2.1.0(@types/node@22.5.4)(@vitest/ui@2.1.0))
       '@vitest/ui':
         specifier: ^2.0.5
         version: 2.1.0(vitest@2.1.0)
@@ -816,11 +816,11 @@ packages:
     resolution: {integrity: sha512-8aAx5QMVLar4kTUikq7XmD3NQs6o/by87PfZNAFxuGMhKQ5RBnUfH1pzpRs+FTHN7L09As0W90cjC97b3biEaA==}
     engines: {node: '>=14'}
 
-  '@vitest/coverage-v8@2.1.0':
-    resolution: {integrity: sha512-yqCkr2nrV4o58VcVMxTVkS6Ggxzy7pmSD8JbTbhbH5PsQfUIES1QT716VUzo33wf2lX9EcWYdT3Vl2MMmjR59g==}
+  '@vitest/coverage-v8@2.1.1':
+    resolution: {integrity: sha512-md/A7A3c42oTT8JUHSqjP5uKTWJejzUW4jalpvs+rZ27gsURsMU8DEb+8Jf8C6Kj2gwfSHJqobDNBuoqlm0cFw==}
     peerDependencies:
-      '@vitest/browser': 2.1.0
-      vitest: 2.1.0
+      '@vitest/browser': 2.1.1
+      vitest: 2.1.1
     peerDependenciesMeta:
       '@vitest/browser':
         optional: true
@@ -3260,7 +3260,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@vitest/coverage-v8@2.1.0(vitest@2.1.0(@types/node@22.5.4)(@vitest/ui@2.1.0))':
+  '@vitest/coverage-v8@2.1.1(vitest@2.1.0(@types/node@22.5.4)(@vitest/ui@2.1.0))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 0.2.3
