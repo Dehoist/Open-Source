@@ -25,7 +25,7 @@ importers:
         version: 2.1.2(vitest@2.1.2)
       '@vitest/ui':
         specifier: ^2.0.5
-        version: 2.1.4(vitest@2.1.2)
+        version: 2.1.5(vitest@2.1.2)
       bumpp:
         specifier: ^9.5.2
         version: 9.8.1(magicast@0.3.5)
@@ -49,7 +49,7 @@ importers:
         version: 5.6.3
       vitest:
         specifier: ^2.0.5
-        version: 2.1.2(@types/node@22.9.0)(@vitest/ui@2.1.4)
+        version: 2.1.2(@types/node@22.9.0)(@vitest/ui@2.1.5)
 
   packages/romanize-thai: {}
 
@@ -922,8 +922,8 @@ packages:
   '@vitest/pretty-format@2.1.2':
     resolution: {integrity: sha512-FIoglbHrSUlOJPDGIrh2bjX1sNars5HbxlcsFKCtKzu4+5lpsRhOCVcuzp0fEhAGHkPZRIXVNzPcpSlkoZ3LuA==}
 
-  '@vitest/pretty-format@2.1.4':
-    resolution: {integrity: sha512-L95zIAkEuTDbUX1IsjRl+vyBSLh3PwLLgKpghl37aCK9Jvw0iP+wKwIFhfjdUtA2myLgjrG6VU6JCFLv8q/3Ww==}
+  '@vitest/pretty-format@2.1.5':
+    resolution: {integrity: sha512-4ZOwtk2bqG5Y6xRGHcveZVr+6txkH7M2e+nPFd6guSoN638v/1XQ0K06eOpi0ptVU/2tW/pIU4IoPotY/GZ9fw==}
 
   '@vitest/runner@2.1.2':
     resolution: {integrity: sha512-UCsPtvluHO3u7jdoONGjOSil+uON5SSvU9buQh3lP7GgUXHp78guN1wRmZDX4wGK6J10f9NUtP6pO+SFquoMlw==}
@@ -934,16 +934,16 @@ packages:
   '@vitest/spy@2.1.2':
     resolution: {integrity: sha512-GSUi5zoy+abNRJwmFhBDC0yRuVUn8WMlQscvnbbXdKLXX9dE59YbfwXxuJ/mth6eeqIzofU8BB5XDo/Ns/qK2A==}
 
-  '@vitest/ui@2.1.4':
-    resolution: {integrity: sha512-Zd9e5oU063c+j9N9XzGJagCLNvG71x/2tOme3Js4JEZKX55zsgxhJwUgLI8hkN6NjMLpdJO8d7nVUUuPGAA58Q==}
+  '@vitest/ui@2.1.5':
+    resolution: {integrity: sha512-ERgKkDMTfngrZip6VG5h8L9B5D0AH/4+bga4yR1UzGH7c2cxv3LWogw2Dvuwr9cP3/iKDHYys7kIFLDKpxORTg==}
     peerDependencies:
-      vitest: 2.1.4
+      vitest: 2.1.5
 
   '@vitest/utils@2.1.2':
     resolution: {integrity: sha512-zMO2KdYy6mx56btx9JvAqAZ6EyS3g49krMPPrgOp1yxGZiA93HumGk+bZ5jIZtOg5/VBYl5eBmGRQHqq4FG6uQ==}
 
-  '@vitest/utils@2.1.4':
-    resolution: {integrity: sha512-MXDnZn0Awl2S86PSNIim5PWXgIAx8CIkzu35mBdSApUip6RFOGXBCf3YFyeEu8n1IHk4bWD46DeYFu9mQlFIRg==}
+  '@vitest/utils@2.1.5':
+    resolution: {integrity: sha512-yfj6Yrp0Vesw2cwJbP+cl04OC+IHFsuQsrsJBL9pyGeQXE56v1UAOQco+SR55Vf1nQzfV0QJg1Qum7AaWUwwYg==}
 
   '@vue/compiler-core@3.4.38':
     resolution: {integrity: sha512-8IQOTCWnLFqfHzOGm9+P8OPSEDukgg3Huc92qSG49if/xI2SAwLHQO2qaPQbjCWPBcQoO1WYfXfTACUrWV3c5A==}
@@ -2126,6 +2126,9 @@ packages:
   picocolors@1.1.0:
     resolution: {integrity: sha512-TQ92mBOW0l3LeMeyLV6mzy/kWr8lkd/hp3mTg7wYK7zJhuBStmGMBG0BdeDZS/dZx1IukaX6Bk11zcln25o1Aw==}
 
+  picocolors@1.1.1:
+    resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
+
   picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
@@ -2147,6 +2150,10 @@ packages:
 
   postcss@8.4.47:
     resolution: {integrity: sha512-56rxCq7G/XfB4EkXq9Egn5GCqugWvDFjafDOThIdMBsI15iqPqR5r15TfSr1YPYeEI19YeaXMCbY6u88Y76GLQ==}
+    engines: {node: ^10 || ^12 || >=14}
+
+  postcss@8.4.49:
+    resolution: {integrity: sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA==}
     engines: {node: ^10 || ^12 || >=14}
 
   prelude-ls@1.2.1:
@@ -3392,7 +3399,7 @@ snapshots:
       std-env: 3.7.0
       test-exclude: 7.0.1
       tinyrainbow: 1.2.0
-      vitest: 2.1.2(@types/node@22.9.0)(@vitest/ui@2.1.4)
+      vitest: 2.1.2(@types/node@22.9.0)(@vitest/ui@2.1.5)
     transitivePeerDependencies:
       - supports-color
 
@@ -3402,7 +3409,7 @@ snapshots:
     optionalDependencies:
       '@typescript-eslint/utils': 8.13.0(eslint@9.14.0(jiti@2.0.0))(typescript@5.6.3)
       typescript: 5.6.3
-      vitest: 2.1.2(@types/node@22.9.0)(@vitest/ui@2.1.4)
+      vitest: 2.1.2(@types/node@22.9.0)(@vitest/ui@2.1.5)
 
   '@vitest/expect@2.1.2':
     dependencies:
@@ -3423,7 +3430,7 @@ snapshots:
     dependencies:
       tinyrainbow: 1.2.0
 
-  '@vitest/pretty-format@2.1.4':
+  '@vitest/pretty-format@2.1.5':
     dependencies:
       tinyrainbow: 1.2.0
 
@@ -3442,16 +3449,16 @@ snapshots:
     dependencies:
       tinyspy: 3.0.2
 
-  '@vitest/ui@2.1.4(vitest@2.1.2)':
+  '@vitest/ui@2.1.5(vitest@2.1.2)':
     dependencies:
-      '@vitest/utils': 2.1.4
+      '@vitest/utils': 2.1.5
       fflate: 0.8.2
       flatted: 3.3.1
       pathe: 1.1.2
       sirv: 3.0.0
       tinyglobby: 0.2.10
       tinyrainbow: 1.2.0
-      vitest: 2.1.2(@types/node@22.9.0)(@vitest/ui@2.1.4)
+      vitest: 2.1.2(@types/node@22.9.0)(@vitest/ui@2.1.5)
 
   '@vitest/utils@2.1.2':
     dependencies:
@@ -3459,9 +3466,9 @@ snapshots:
       loupe: 3.1.2
       tinyrainbow: 1.2.0
 
-  '@vitest/utils@2.1.4':
+  '@vitest/utils@2.1.5':
     dependencies:
-      '@vitest/pretty-format': 2.1.4
+      '@vitest/pretty-format': 2.1.5
       loupe: 3.1.2
       tinyrainbow: 1.2.0
 
@@ -3487,7 +3494,7 @@ snapshots:
       '@vue/shared': 3.4.38
       estree-walker: 2.0.2
       magic-string: 0.30.12
-      postcss: 8.4.47
+      postcss: 8.4.49
       source-map-js: 1.2.1
 
   '@vue/compiler-ssr@3.4.38':
@@ -4742,6 +4749,8 @@ snapshots:
 
   picocolors@1.1.0: {}
 
+  picocolors@1.1.1: {}
+
   picomatch@2.3.1: {}
 
   picomatch@4.0.2: {}
@@ -4763,6 +4772,12 @@ snapshots:
     dependencies:
       nanoid: 3.3.7
       picocolors: 1.1.0
+      source-map-js: 1.2.1
+
+  postcss@8.4.49:
+    dependencies:
+      nanoid: 3.3.7
+      picocolors: 1.1.1
       source-map-js: 1.2.1
 
   prelude-ls@1.2.1: {}
@@ -5116,7 +5131,7 @@ snapshots:
       '@types/node': 22.9.0
       fsevents: 2.3.3
 
-  vitest@2.1.2(@types/node@22.9.0)(@vitest/ui@2.1.4):
+  vitest@2.1.2(@types/node@22.9.0)(@vitest/ui@2.1.5):
     dependencies:
       '@vitest/expect': 2.1.2
       '@vitest/mocker': 2.1.2(@vitest/spy@2.1.2)(vite@5.4.8(@types/node@22.9.0))
@@ -5139,7 +5154,7 @@ snapshots:
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 22.9.0
-      '@vitest/ui': 2.1.4(vitest@2.1.2)
+      '@vitest/ui': 2.1.5(vitest@2.1.2)
     transitivePeerDependencies:
       - less
       - lightningcss
