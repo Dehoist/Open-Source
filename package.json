@@ -22,7 +22,7 @@
     "@unocss/eslint-plugin": "^65.0.0",
     "@vitest/coverage-v8": "^2.0.5",
     "@vitest/ui": "^3.0.0",
-    "bumpp": "^9.5.2",
+    "bumpp": "^10.0.0",
     "commitlint": "^19.4.0",
     "eslint": "^9.9.0",
     "eslint-plugin-format": "^1.0.0",
