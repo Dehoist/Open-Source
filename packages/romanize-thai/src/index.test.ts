@@ -1,7 +1,7 @@
 import { describe, it } from 'vitest'
-import { THAI_REGEX, successTests } from './mocks/testData.js'
-
 import { romanize } from './index.js'
+
+import { successTests, THAI_REGEX } from './mocks/testData.js'
 
 describe('romanize-thai', () => {
   it('should romanize thai text', ({ expect }) => {
